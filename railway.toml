@@ -1,6 +1,0 @@
-[build]
-  builder = "nixpacks"
-  callbacks = { build = "pip install -r requirements.txt" }
-
-[deploy]
-  numReplicas = 1
